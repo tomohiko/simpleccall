@@ -4,6 +4,7 @@ simpleccall
 Simple C-Language Call Library from python.
 
 ###Usage
+`
 import SimpleC
 c_prog = """
 #include <stdio.h>
@@ -17,7 +18,7 @@ mylib = SimpleC.load()
 
 result = mylib.add(7, 8)
 print result
-
+`
 > 15
 
 ###SAMPLE
