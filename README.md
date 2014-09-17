@@ -5,7 +5,7 @@ Simple C-Language Call Library from python.
 
 ###Usage
 
-<pre>
+```
 import SimpleC
 c_prog = """
 #include <stdio.h>
@@ -19,7 +19,7 @@ mylib = SimpleC.load()
 
 result = mylib.add(7, 8)
 print result
-</pre>
+```
 > 15
 
 ###SAMPLE
